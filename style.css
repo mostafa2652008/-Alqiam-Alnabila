@@ -343,18 +343,27 @@ a{
     height: 150px;
     border-radius:50%;
     font-size: 1em;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 .div2{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     font-size: 1em;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 .div3{
     width: 150px;
     height:150px;
     border-radius: 50%;
     font-size: 1em;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 .font{
     
@@ -470,14 +479,23 @@ gap: 30px;
 .div1{
     width: 125px;
     height: 125px;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 .div2{
     width: 125px;
     height: 125px;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 .div3{
     width: 125px;
     height:125px;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #hani{
