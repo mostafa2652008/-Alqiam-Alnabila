@@ -55,7 +55,9 @@ background-size: contain;
 background-size: 100% 100%;
 background-repeat: no-repeat;
 border-radius: 50%;
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center; 
 }
 .div2{
     width: 200px;
@@ -65,7 +67,9 @@ background-size: contain;
 background-size: 100% 100%;
 background-repeat: no-repeat;
 border-radius: 50%;
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
     
 }
 .div3{
@@ -75,7 +79,9 @@ text-align: center;
 background-size: 100% 100%;
 background-repeat: no-repeat;
 border-radius: 50%;
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center; 
 }
 .font{
     padding-top: 30%;
