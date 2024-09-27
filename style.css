@@ -427,3 +427,93 @@ justify-content: center;
           }
 
 }
+/*small phone*/
+@media (max-width:370px){
+    .back{
+        height: 600px;
+        
+    }
+    .text{
+        font-size: 2.6em;
+    }
+    .header{
+    gap: 10px;
+}
+a{
+    font-size: 1em;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+}
+.parent{
+    margin-top: 30px;
+gap: 30px;
+}
+
+.div1{
+    width: 125px;
+    height: 125px;
+}
+.div2{
+    width: 125px;
+    height: 125px;
+}
+.div3{
+    width: 125px;
+    height:125px;
+}
+
+#hani{
+    display: flex;
+    justify-content: center;
+    height:950px ;
+}
+.logo2{
+    width: 140px;
+    height: 140px;
+    top: 720px;
+    }
+
+    .boss2{
+       top: 855px;
+       right: 5px;
+       font-size: 1.6em;
+       white-space: pre-wrap;
+    }
+    .boss{
+       top: 640px;
+       right: 5px;
+       font-size: 2.1em;
+    }
+.bot{
+        top: 500px;
+        left: 15%;
+        height: 70px;
+        width: 100px;
+    }
+.osama{
+height: 2000px;
+}
+.osamatext{
+   top: 1600px;
+   font-size: 2.1em;
+}
+.ossama2{
+   top: 1850px;
+   right: 5px;
+   font-size: 2em;
+}
+.logoosama{
+    width: 140px;
+    height: 140px;
+    top: 1710px;
+
+    }
+    .bot2{
+        top: 3350px;
+        width: 150px;
+        height: 80px;
+          }
+
+}
