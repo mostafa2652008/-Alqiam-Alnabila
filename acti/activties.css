@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bac{
+display: grid;
+grid-template-columns: repeat(2,auto);
+justify-content: space-around;
+margin-top: 100px;
+gap: 50px;
+}
+.div0{
+    width: 250px;
+    height: 250px;
+   border-radius: 50%;
+   background-color: #1f618d;
+    }
+    .back0{
+        margin: auto;
+        margin-top: 20px;
+        width: 150px;
+    height: 150px;
+        background: url(on2.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+    
+     }
+.div1{
+ width: 250px;
+ height: 250px;
+border-radius: 50%;
+background-color: #1f618d;
+ }
+ .back1{
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+height: 150px;
+    background: url(class.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+
+ }
+.div2{
+ width: 250px;;
+ height: 250px;
+ background-color:#1f618d;
+border-radius: 50%;
+ }
+ .back2{
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+height: 150px;
+background-image: url(roll1.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 50%;
+ }
+
+.div3{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+background: #1f618d;
+    }
+.back3{
+        margin: auto;
+        margin-top: 20px;
+        width: 150px;
+    height: 150px;
+    background-image: url(uni.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        border-radius: 50%;
+    
+     }  
+
+    .div4{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: #1f618d;
+
+    }
+    .back4{
+        margin: auto;
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+    background-image: url(team.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+     }
+     .div5{
+        width: 250px;
+        height: 250px;
+       border-radius: 50%;
+       background-color: #1f618d;
+        }
+
+        .back5{
+            margin: auto;
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+        background-image: url(ac.png);
+            background-repeat: no-repeat;
+            background-size:contain;
+         }
+    
+ body{
+   background-color: #3498db;
+  }
+        
+/*section1*/
+.header{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    }
+    .header a{
+        color: #ffffff;
+    transition: 1s;
+    }
+    .header a:hover{
+    font-size: 50px;
+    background-color: #1b4f72;
+    color: #00b7ff;
+    }
+    a{
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: 900;
+        
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        background: url(logo.jpg);
+        background-size: contain;
+        display: inline-flex;
+    }
+    .logo:hover{
+        width: 150px;
+        height: 150px;
+        transition: 1s;}
+.font{
+    display: block;
+    color: #00b7ff;
+font-size: 1.4em;
+margin-left: 45px;
+padding-top: 30px;
+}
+a div:hover{
+    scale: 1.2;
+    transition: 1s;
+}
+
+@media (max-width:600px){
+    .header{
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        }
+        .bac{
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+            justify-content: space-around;
+            margin-top: 100px;
+            gap: 25px;
+            }
+       
+.header a{
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: 900;
+            
+        }
+}
+@media (max-width:410px){
+    .header{
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        }
+
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100000;
+    position: fixed;
+    }
+    .header a{
+        color: #ffffff;
+    transition: 1s;
+    }
+    .header a:hover{
+    font-size: 50px;
+    background-color: #000000;
+    color: #00b7ff;
+    }
+    a{
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: 900;
+        
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        background: url(logo.jpg);
+        background-size: contain;
+        display: inline-flex;
+    }
+    .logo:hover{
+        width: 150px;
+        height: 150px;
+        transition: 1s;}
+
+a div:hover{
+    scale: 1.2;
+    transition: 1s;
+}
+body{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+   }
+.parent{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-around;
+    margin-top: 100px;
+    gap: 50px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+p{
+    padding-top: 50px;
+    font-family: "Amiri", serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: center;
+    color: #551a8b;
+
+
+}
+@media (max-width:600px){
+    .header{
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        right: 2px;
+        top: 10px;
+        }
+        .parent{
+            width: 100%;
+            height: 1000px;
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+            justify-content: space-around;
+            margin-top: 50px;
+            gap: 25px 10px;
+        }
+        .header a{
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: 900;
+            
+        }
+}
+@media (max-width:410px){
+    .header{
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        }
+
+}

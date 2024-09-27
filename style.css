@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.back{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+
+
+.header{
+display: flex;
+gap: 80px;
+position: absolute;
+right: 10px;
+top: 10px;
+}
+.header a{
+    color: #030042;
+transition: 1s;
+}
+.header a:hover{
+font-size: 50px;
+background-color: #43e97b;
+color: #00b7ff;
+}
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 900;
+    
+}
+.text{
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-size: 3.5em;
+    font-style: normal;
+    text-align: center;
+    
+}
+.parent{
+    margin-top: 50px;
+display: flex;
+flex-flow: row wrap;
+gap: 75px;
+justify-content: center;
+
+}
+.div1{
+width: 200px;
+height: 200px;
+background-image: url(1.gif);
+background-size: contain;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+border-radius: 50%;
+text-align: center;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-image: url(2.gif);
+background-size: contain;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+border-radius: 50%;
+text-align: center;
+    
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-image: url(3.gif);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+border-radius: 50%;
+text-align: center;
+}
+.font{
+    padding-top: 30%;
+    font-size: 35px;
+    color: #0c075f;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    background: url(logo.jpg);
+    background-size: contain;
+    display: inline-flex;
+}
+.logo:hover{
+    width: 125px;
+    height: 125px;
+    transition: 1s;
+}
+.div1:hover{
+ scale: 1.25;
+    transition: 1s;
+}
+.div2:hover{
+    scale: 1.25;
+    transition: 1s;
+}.div3:hover{
+    scale: 1.25;
+    transition: 1s;
+}
+
+
+/*section2*/
+#hani{
+width: 100%;
+height: 600px;
+background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.logo2{
+width: 250px;
+height: 250px;
+background: url(2.png) no-repeat;
+background-size: cover;
+position: absolute;
+top: 670px;
+border: #000000 solid 10px ;
+border-radius: 50%;
+}
+.boss{
+    text-align: right;
+   position: absolute;
+   top: 650px;
+   right: 15px;
+   font-weight: 900 ;
+   font-size: 3em;
+   font-family: "Amiri", serif;
+}
+.boss2{
+    text-align: right;
+   position: absolute;
+   top: 690px;
+   right: 5px;
+   font-weight: 400 ;
+   font-size: 2em;
+   font-family: "Amiri", serif;
+   white-space: pre;
+}
+.osama{
+    
+    width: 100%;
+    height: 1100px;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    }
+    .logoosama{
+    width: 250px;
+    height: 250px;
+    background: url(3.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1250px;
+    border: #000000 solid 10px ;
+    border-radius: 50%;
+    }
+    .osamatext{
+        text-align: right;
+       position: absolute;
+       top: 1250px;
+       right: 15px;
+       font-weight: 900 ;
+       font-size: 3em;
+       font-family: "Amiri", serif;
+    }
+    .ossama2{
+        text-align: right;
+       position: absolute;
+       top: 1320px;
+       right: 5px;
+       font-weight: 400 ;
+       font-size: 2em;
+       font-family: "Amiri", serif;
+       white-space: pre-wrap;
+    }
+    /* From Uiverse.io by cssbuttons-io */ 
+button {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 9em;
+    height: 5em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+  }
+  
+  button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  button:hover {
+    color: #fff;
+  }
+  
+  button:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  button:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  .bot2{
+position: absolute;
+top: 1900px;
+width: 200px;
+height: 100px;
+right: 40%;
+font-size: 2em;
+font-weight: 900;
+  }
+  .bot{
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    top: 260px;
+    right: 160px;
+    font-size: 33px;
+    font-weight: 900;
+      }
+
+
+/*tablet*/
+@media (max-width:800px){
+    .back{
+        height: 700px;
+    }
+    .header{
+        gap: 40px;
+    }
+    .logo2{  
+        top: 700px;
+      align-self: center;
+      border: #000000 solid 6px ;
+        }
+
+        .boss2{
+            text-align: right;
+           position: absolute;
+           top: 750px;
+           right: 5px;
+           font-weight: 400 ;
+           font-size: 2em;
+           font-family: "Amiri", serif;
+           white-space: pre;
+        }
+        .boss{
+           top: 710px;
+        }
+        .hanidetail{
+            top: 385px;
+        }
+
+            .osamatext{
+               top: 1320px;
+               font-size: 3em;
+            }
+            .ossama2{
+                text-align: right;
+               position: absolute;
+               top: 1400px;
+               right: 5px;
+               font-weight: 400 ;
+               font-size: 2em;
+               font-family: "Amiri", serif;
+               white-space: pre-wrap;
+            
+            }
+            .logoosama{
+                width: 270px;
+                height: 270px;
+                position: absolute;
+                top: 1400px;
+            
+                border: #000000 solid 5px ;
+                }
+                .bot2{
+                    position: absolute;
+                    top: 2200px;
+                    width: 200px;
+                    height: 100px;
+                    left: 35%;
+                      }
+
+}
+/*phone*/
+@media (max-width:600px){
+    .back{
+        height: 700px;
+        
+    }
+    
+
+
+    .header{
+    gap: 20px;
+}
+a{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.logo{
+    width: 70;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
+.div1{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    font-size: 1em;
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 1em;
+}
+.div3{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    font-size: 1em;
+}
+.font{
+    
+    text-align: center;
+}
+#hani{
+    display: flex;
+    justify-content: center;
+    height:800px ;
+}
+.logo2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 850px;
+    border: #000000 solid 4px ;
+    border-radius: 50%;
+  align-self: center;
+    }
+
+    .boss2{
+        text-align: right;
+       position: absolute;
+       top: 970px;
+       right: 5px;
+       font-weight: 400 ;
+       font-size: 2em;
+       font-family: "Amiri", serif;
+       white-space: pre;
+    }
+    .boss{
+        text-align: right;
+       position: absolute;
+       top: 750px;
+       right: 15px;
+       font-weight: 900 ;
+       font-size: 3em;
+       font-family: "Amiri", serif;
+    }
+.hanidetail{
+        top: 385px;
+    }
+    
+
+.osama{
+height: 1500px;
+display: flex;
+justify-content: center;
+}
+.osamatext{
+    text-align: right;
+   position: absolute;
+   top: 1500px;
+   font-size: 2.2em;
+}
+.ossama2{
+    text-align: right;
+   position: absolute;
+   top: 1720px;
+   right: 5px;
+   font-weight: 400 ;
+   font-size: 2em;
+   font-family: "Amiri", serif;
+   white-space: pre-wrap;
+
+}
+.logoosama{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 1570px;
+
+    border: #000000 solid 4px ;
+    }
+    .bot2{
+        position: absolute;
+        top: 2500px;
+        width: 200px;
+        height: 100px;
+        left: 25%;
+          }
+
+}
