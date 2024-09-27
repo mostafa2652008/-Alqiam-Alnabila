@@ -89,7 +89,6 @@ justify-content: center;
 align-items: center; 
 }
 .font{
-    padding-top: 30%;
     font-size: 35px;
     color: #0c075f;
 }
@@ -154,7 +153,6 @@ border-radius: 50%;
    white-space: pre;
 }
 .osama{
-    
     width: 100%;
     height: 1100px;
     background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
@@ -365,10 +363,6 @@ align-items: center;
 justify-content: center;
 align-items: center;
 }
-.font{
-    
-    text-align: center;
-}
 #hani{
     display: flex;
     justify-content: center;
@@ -550,7 +544,6 @@ height: 2000px;
         height: 80px;
           }
     .font{
-    padding-top: 25%;
     font-size: 30px;
     
 }
