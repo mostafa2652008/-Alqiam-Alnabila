@@ -224,7 +224,7 @@ button {
   }
   .bot2{
 position: absolute;
-top: 1900px;
+top: 2080px;
 width: 200px;
 height: 100px;
 right: 40%;
@@ -235,7 +235,7 @@ font-weight: 900;
     width: 140px;
     height: 70px;
     position: absolute;
-    top: 260px;
+    top: 420px;
     right: 160px;
     font-size: 33px;
     font-weight: 900;
