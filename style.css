@@ -31,6 +31,11 @@ a{
     font-weight: 900;
     
 }
+.divs{
+    width: 200px;
+height: 200px;
+border-radius: 50%;
+}
 .text{
     font-family: "Amiri", serif;
     font-weight: 700;
@@ -431,6 +436,11 @@ justify-content: center;
         height: 100px;
         left: 25%;
           }
+              .divs{
+            width: 150px;
+        height: 150px;
+       
+        }
 
 }
 /*small phone*/
@@ -525,6 +535,11 @@ height: 2000px;
     padding-top: 25%;
     font-size: 30px;
     
+}
+    .divs{
+    width: 125px;
+height: 125px;
+
 }
 
 }
