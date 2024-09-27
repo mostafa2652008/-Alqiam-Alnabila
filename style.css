@@ -50,7 +50,7 @@ display: flex;
 flex-flow: row wrap;
 gap: 75px;
 justify-content: center;
-
+text-align:center;
 }
 .div1{
 width: 200px;
@@ -87,7 +87,7 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center; 
-    text-align: center;
+text-align: center;
 }
 .font{
     font-size: 35px;
